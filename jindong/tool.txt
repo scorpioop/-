@@ -1,0 +1,45 @@
+2021-11-09 11:08:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://pjapi.jd.com/book/sort?source=bookSort> (referer: https://book.jd.com/)
+Traceback (most recent call last):
+  File "C:\Users\lxy\AppData\Local\Programs\Python\Python38\lib\site-packages\twisted\internet\defer.py", line 662, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lxy\AppData\Local\Programs\Python\Python38\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "D:\AIIT_thislenovo\爬虫\京东图书\jindong\jindong\spiders\book.py", line 24, in parse
+    big_category_link = "https://channel.jd.com/"+item["fatherCategoryId"]+"-"+item["categoryId"]+".html"
+TypeError: can only concatenate str (not "float") to str
+2021-11-09 11:09:07 [scrapy.core.scraper] ERROR: Spider error processing <GET https://pjapi.jd.com/book/sort?source=bookSort> (referer: https://book.jd.com/)
+Traceback (most recent call last):
+  File "C:\Users\lxy\AppData\Local\Programs\Python\Python38\lib\site-packages\twisted\internet\defer.py", line 662, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lxy\AppData\Local\Programs\Python\Python38\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "D:\AIIT_thislenovo\爬虫\京东图书\jindong\jindong\spiders\book.py", line 25, in parse
+    big_category_link = "https://channel.jd.com/"+item["fatherCategoryId"]+"-"+item["categoryId"]+".html"
+TypeError: can only concatenate str (not "float") to str
+2021-11-09 11:11:04 [scrapy.core.scraper] ERROR: Spider error processing <GET https://pjapi.jd.com/book/sort?source=bookSort> (referer: https://book.jd.com/)
+Traceback (most recent call last):
+  File "C:\Users\lxy\AppData\Local\Programs\Python\Python38\lib\site-packages\twisted\internet\defer.py", line 662, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lxy\AppData\Local\Programs\Python\Python38\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "D:\AIIT_thislenovo\爬虫\京东图书\jindong\jindong\spiders\book.py", line 25, in parse
+    big_category_link = "https://channel.jd.com/"+item["fatherCategoryId"]+"-"+item["categoryId"]+".html"
+TypeError: can only concatenate str (not "float") to str
+2021-11-09 11:11:54 [scrapy.core.scraper] ERROR: Spider error processing <GET https://pjapi.jd.com/book/sort?source=bookSort> (referer: https://book.jd.com/)
+Traceback (most recent call last):
+  File "C:\Users\lxy\AppData\Local\Programs\Python\Python38\lib\site-packages\twisted\internet\defer.py", line 662, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lxy\AppData\Local\Programs\Python\Python38\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "D:\AIIT_thislenovo\爬虫\京东图书\jindong\jindong\spiders\book.py", line 24, in parse
+    big_category_link = "https://channel.jd.com/"+str(item["fatherCategoryId"])+"-"+str(item["categoryId"]+".html")
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+2021-11-09 11:12:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://pjapi.jd.com/book/sort?source=bookSort> (referer: https://book.jd.com/)
+Traceback (most recent call last):
+  File "C:\Users\lxy\AppData\Local\Programs\Python\Python38\lib\site-packages\twisted\internet\defer.py", line 662, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lxy\AppData\Local\Programs\Python\Python38\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "D:\AIIT_thislenovo\爬虫\京东图书\jindong\jindong\spiders\book.py", line 24, in parse
+    big_category_link = "https://channel.jd.com/"+str(item["fatherCategoryId"])+"-"+str(item["categoryId"]+".html")
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
